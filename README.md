@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&width=1000&height=200&section=header&text=Nguyễn%20Văn%20Kiên&fontSize=60&fontAlignY=35&animation=twinkling&theme=dark" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=4F74FF&center=true&vCenter=true&width=1000&lines=Nguyễn+Văn+Kiên;Full-stack+Developer;Automation+Expert" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -9,7 +9,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=4F74FF&center=true&vCenter=true&width=500&lines=Full-stack+Developer;Chrome+Extension+Specialist;Automation+Expert;Passionate+about+Modern+UI/UX" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=A9B1D6&center=true&vCenter=true&width=500&lines=Chrome+Extension+Specialist;Passionate+about+Modern+UI/UX;Building+the+Future+of+Web" alt="Typing SVG Subtitle" />
 </div>
 
 ---
@@ -62,5 +62,8 @@ I believe every line of code should contribute to a seamless and beautiful user 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=rect&color=gradient&width=1000&height=50&section=footer&text=%C2%A9%202024%20Nguy%E1%BB%85n%20V%C4%83n%20Ki%C3%AAn&fontSize=20" />
+  <p align="center">
+    <img src="https://img.shields.io/badge/-Nguyễn%20Văn%20Kiên-blue?style=flat-square&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Portfolio-black?style=flat-square&logo=react&logoColor=white" />
+  </p>
 </div>
