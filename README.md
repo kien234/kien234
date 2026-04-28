@@ -45,6 +45,16 @@
   <img src="assets/divider.svg" width="100%" />
 </div>
 
+### 💖 &nbsp;CONTRIBUTION HEARTBEAT
+
+<div align="center">
+  <img src="assets/contributions.svg" width="100%" alt="Heart Contributions" />
+</div>
+
+<div align="center">
+  <img src="assets/divider.svg" width="100%" />
+</div>
+
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="25" /> &nbsp;NEURAL ACTIVITY
 
 <div align="center">
