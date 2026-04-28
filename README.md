@@ -5,7 +5,7 @@
 <br/>
 
 <div align="center">
-  <h1><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=2000&pause=1000&color=00F2FF&center=true&vCenter=true&width=800&lines=NGUYỄN+VĂN+KIÊN;SYSTEM+OPERATOR;AI+DRIVEN+DEVELOPER" alt="Typing SVG" /></h1>
+  <img src="assets/header.svg" width="800" alt="NGUYEN VAN KIEN" />
 </div>
 
 <div align="center">

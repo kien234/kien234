@@ -1,0 +1,72 @@
+<svg width="800" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;display=swap');
+      
+      .wrapper {
+        pointer-events: all;
+        cursor: crosshair;
+      }
+      
+      .text-layer {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 45px;
+        font-weight: 700;
+        fill: transparent;
+        stroke: #00F2FF;
+        stroke-width: 1.5px;
+        /* Start offscreen */
+        transform: translateX(800px);
+      }
+
+      /* Continuous running animation */
+      @keyframes runMarquee {
+        0% { transform: translateX(800px); }
+        100% { transform: translateX(-800px); }
+      }
+
+      .running {
+        animation: runMarquee 4s linear infinite;
+      }
+
+      /* Hover interaction */
+      .wrapper:hover .running {
+        animation-play-state: paused;
+        fill: #F7768E;
+        stroke: #F7768E;
+        filter: drop-shadow(0 0 15px rgba(247, 118, 142, 0.8));
+      }
+
+      /* Glitch effect on hover */
+      .wrapper:hover .glitch {
+        opacity: 1;
+        animation: runMarquee 4s linear infinite paused, glitch-anim 0.1s infinite;
+      }
+
+      .glitch {
+        opacity: 0;
+        fill: #00FF9D;
+        stroke: transparent;
+        mix-blend-mode: overlay;
+      }
+
+      @keyframes glitch-anim {
+        0% { transform: translate(5px, 3px); }
+        20% { transform: translate(-5px, -3px); }
+        40% { transform: translate(5px, -3px); }
+        60% { transform: translate(-5px, 3px); }
+        80% { transform: translate(5px, 0); }
+        100% { transform: translate(0, 0); }
+      }
+    </style>
+  </defs>
+
+  <rect width="800" height="100" fill="transparent" class="wrapper" />
+  
+  <g class="wrapper">
+    <!-- Main text -->
+    <text x="0" y="65" class="text-layer running">NGUYỄN VĂN KIÊN /// NGUYỄN VĂN KIÊN</text>
+    <!-- Glitch layer (only visible on hover) -->
+    <text x="0" y="65" class="text-layer running glitch">NGUYỄN VĂN KIÊN /// NGUYỄN VĂN KIÊN</text>
+  </g>
+</svg>
