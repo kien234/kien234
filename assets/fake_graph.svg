@@ -1,0 +1,706 @@
+<svg width="850" height="180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+      .graph { pointer-events: all; cursor: crosshair; }
+      .sq { transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); rx: 2; }
+      .bg { fill: transparent; }
+
+      .graph:hover .sq.g1 {
+         transform: translate(247px, -115px) rotate(-166deg) scale(1.9901894276854397);
+         fill: #00FF9D;
+         opacity: 0.6016610162797981;
+      }
+
+      .graph:hover .sq.g2 {
+         transform: translate(162px, 123px) rotate(-7deg) scale(0.40330020783422393);
+         fill: #ff003c;
+         opacity: 0.7582385048060667;
+      }
+
+      .graph:hover .sq.g3 {
+         transform: translate(-255px, -47px) rotate(5deg) scale(2.038837908241056);
+         fill: #F7768E;
+         opacity: 0.8921337991085954;
+      }
+
+      .graph:hover .sq.g4 {
+         transform: translate(133px, 144px) rotate(79deg) scale(1.1828552852751115);
+         fill: #00F2FF;
+         opacity: 0.8087534898291053;
+      }
+
+      .graph:hover .sq.g5 {
+         transform: translate(-135px, 125px) rotate(145deg) scale(1.1926123256317696);
+         fill: #ff003c;
+         opacity: 0.8123086071730109;
+      }
+
+      .graph:hover .sq.g6 {
+         transform: translate(-263px, 36px) rotate(13deg) scale(2.0424136071442436);
+         fill: #7000FF;
+         opacity: 0.8023734872754387;
+      }
+
+      .graph:hover .sq.g7 {
+         transform: translate(-74px, 53px) rotate(22deg) scale(2.1931902179350082);
+         fill: #F7768E;
+         opacity: 0.977150089731848;
+      }
+
+      .graph:hover .sq.g8 {
+         transform: translate(179px, -145px) rotate(-11deg) scale(1.689343621238684);
+         fill: #F7768E;
+         opacity: 0.8741936933731178;
+      }
+
+      .graph:hover .sq.g9 {
+         transform: translate(149px, 135px) rotate(138deg) scale(0.5931586217286835);
+         fill: #7000FF;
+         opacity: 0.6450909941089844;
+      }
+
+      .graph:hover .sq.g10 {
+         transform: translate(292px, -53px) rotate(129deg) scale(0.20881042982894904);
+         fill: #F7768E;
+         opacity: 0.6060157983317299;
+      }
+
+      .graph:hover .sq.g11 {
+         transform: translate(-184px, 72px) rotate(-59deg) scale(0.7162918791881423);
+         fill: #00FF9D;
+         opacity: 0.7812181000121544;
+      }
+
+      .graph:hover .sq.g12 {
+         transform: translate(86px, -65px) rotate(33deg) scale(0.9144666551576772);
+         fill: #7000FF;
+         opacity: 0.7020016961308493;
+      }
+
+      .graph:hover .sq.g13 {
+         transform: translate(-109px, -145px) rotate(122deg) scale(0.25806226576023805);
+         fill: #00F2FF;
+         opacity: 0.8981662105810644;
+      }
+
+      .graph:hover .sq.g14 {
+         transform: translate(86px, 0px) rotate(28deg) scale(2.4963524055609314);
+         fill: #7000FF;
+         opacity: 0.6385272377105212;
+      }
+
+      .graph:hover .sq.g15 {
+         transform: translate(292px, 17px) rotate(-141deg) scale(0.7813814325245052);
+         fill: #00FF9D;
+         opacity: 0.69687807075278;
+      }
+
+      .graph:hover .sq.g16 {
+         transform: translate(266px, -129px) rotate(17deg) scale(1.7500186216443692);
+         fill: #F7768E;
+         opacity: 0.685957020995724;
+      }
+
+      .graph:hover .sq.g17 {
+         transform: translate(134px, -83px) rotate(15deg) scale(2.00342449623623);
+         fill: #00FF9D;
+         opacity: 0.6369061448684699;
+      }
+
+      .graph:hover .sq.g18 {
+         transform: translate(248px, 105px) rotate(64deg) scale(1.2256647053048453);
+         fill: #7000FF;
+         opacity: 0.7396724024753251;
+      }
+
+      .graph:hover .sq.g19 {
+         transform: translate(31px, 91px) rotate(-67deg) scale(0.8216240641383514);
+         fill: #00FF9D;
+         opacity: 0.8890532552303754;
+      }
+
+      .graph:hover .sq.g20 {
+         transform: translate(-232px, 100px) rotate(-53deg) scale(1.5223880929997613);
+         fill: #F7768E;
+         opacity: 0.6315020949752824;
+      }
+
+      .graph:hover .sq.g21 {
+         transform: translate(-298px, -10px) rotate(84deg) scale(2.0226292767891456);
+         fill: #ff003c;
+         opacity: 0.9827780717634669;
+      }
+
+      .graph:hover .sq.g22 {
+         transform: translate(-14px, 146px) rotate(62deg) scale(1.6048684884697955);
+         fill: #7000FF;
+         opacity: 0.9256839683973754;
+      }
+
+      .graph:hover .sq.g23 {
+         transform: translate(181px, 5px) rotate(-105deg) scale(1.8546271298978276);
+         fill: #ff003c;
+         opacity: 0.6328415540420992;
+      }
+
+      .graph:hover .sq.g24 {
+         transform: translate(-239px, 54px) rotate(-160deg) scale(1.5891426217380806);
+         fill: #7000FF;
+         opacity: 0.8433358232011025;
+      }
+
+      .graph:hover .sq.g25 {
+         transform: translate(-33px, 138px) rotate(-146deg) scale(1.7604889224899107);
+         fill: #ff003c;
+         opacity: 0.6802985297578301;
+      }
+
+      .graph:hover .sq.g26 {
+         transform: translate(5px, 77px) rotate(124deg) scale(2.3894039758337535);
+         fill: #F7768E;
+         opacity: 0.8601245404916713;
+      }
+
+      .graph:hover .sq.g27 {
+         transform: translate(147px, 12px) rotate(-30deg) scale(2.4596885563046427);
+         fill: #00F2FF;
+         opacity: 0.919588472513301;
+      }
+
+      .graph:hover .sq.g28 {
+         transform: translate(231px, -10px) rotate(112deg) scale(1.1350935687471528);
+         fill: #7000FF;
+         opacity: 0.61108431793882;
+      }
+
+      .graph:hover .sq.g29 {
+         transform: translate(240px, -49px) rotate(152deg) scale(1.0927903747357832);
+         fill: #00FF9D;
+         opacity: 0.6676377223187424;
+      }
+
+      .graph:hover .sq.g30 {
+         transform: translate(246px, 18px) rotate(-137deg) scale(1.093434737314665);
+         fill: #F7768E;
+         opacity: 0.6550465124066681;
+      }
+
+      .graph:hover .sq.g31 {
+         transform: translate(-207px, -36px) rotate(-100deg) scale(1.815027899241532);
+         fill: #00FF9D;
+         opacity: 0.8085113875745552;
+      }
+
+      .graph:hover .sq.g32 {
+         transform: translate(-133px, -5px) rotate(-112deg) scale(1.1498831219448309);
+         fill: #F7768E;
+         opacity: 0.6411354410724459;
+      }
+
+      .graph:hover .sq.g33 {
+         transform: translate(-78px, -146px) rotate(-15deg) scale(1.712717512852348);
+         fill: #00FF9D;
+         opacity: 0.6813665128630493;
+      }
+
+      .graph:hover .sq.g34 {
+         transform: translate(-64px, 38px) rotate(-136deg) scale(2.1330702433484716);
+         fill: #ff003c;
+         opacity: 0.7002359438478671;
+      }
+
+      .graph:hover .sq.g35 {
+         transform: translate(273px, -80px) rotate(164deg) scale(1.7622712171004182);
+         fill: #7000FF;
+         opacity: 0.8843136456201264;
+      }
+
+      .graph:hover .sq.g36 {
+         transform: translate(-212px, 51px) rotate(-172deg) scale(1.9024942431409755);
+         fill: #7000FF;
+         opacity: 0.6158159842417726;
+      }
+
+      .graph:hover .sq.g37 {
+         transform: translate(178px, 148px) rotate(147deg) scale(1.6774303934825658);
+         fill: #00FF9D;
+         opacity: 0.9081878370305811;
+      }
+
+      .graph:hover .sq.g38 {
+         transform: translate(224px, -91px) rotate(170deg) scale(1.481233621099964);
+         fill: #7000FF;
+         opacity: 0.7597420580341875;
+      }
+
+      .graph:hover .sq.g39 {
+         transform: translate(-269px, -149px) rotate(69deg) scale(0.38251501785461406);
+         fill: #F7768E;
+         opacity: 0.8618894780907056;
+      }
+
+      .graph:hover .sq.g40 {
+         transform: translate(221px, 124px) rotate(125deg) scale(0.31449005371112126);
+         fill: #7000FF;
+         opacity: 0.9065078377272198;
+      }
+
+      .graph:hover .sq.g41 {
+         transform: translate(-28px, 112px) rotate(-52deg) scale(1.8830241842555346);
+         fill: #00FF9D;
+         opacity: 0.9704982384762009;
+      }
+
+      .graph:hover .sq.g42 {
+         transform: translate(201px, -77px) rotate(53deg) scale(0.42040002532291476);
+         fill: #ff003c;
+         opacity: 0.6045869898459586;
+      }
+
+      .graph:hover .sq.g43 {
+         transform: translate(221px, -131px) rotate(156deg) scale(2.0442951735519803);
+         fill: #00F2FF;
+         opacity: 0.6974483730352824;
+      }
+
+      .graph:hover .sq.g44 {
+         transform: translate(31px, -24px) rotate(-148deg) scale(0.5175246834763064);
+         fill: #ff003c;
+         opacity: 0.7758914857733763;
+      }
+
+      .graph:hover .sq.g45 {
+         transform: translate(294px, -133px) rotate(-147deg) scale(2.3701434660696576);
+         fill: #7000FF;
+         opacity: 0.7212358858262709;
+      }
+
+      .graph:hover .sq.g46 {
+         transform: translate(169px, -148px) rotate(-171deg) scale(2.226261907007189);
+         fill: #7000FF;
+         opacity: 0.6819599721286377;
+      }
+
+      .graph:hover .sq.g47 {
+         transform: translate(221px, -76px) rotate(-179deg) scale(1.6926472786259712);
+         fill: #F7768E;
+         opacity: 0.9918879882780897;
+      }
+
+      .graph:hover .sq.g48 {
+         transform: translate(-238px, -54px) rotate(-82deg) scale(1.8938067444975974);
+         fill: #00F2FF;
+         opacity: 0.9166814211887531;
+      }
+
+      .graph:hover .sq.g49 {
+         transform: translate(146px, -122px) rotate(-165deg) scale(0.41798016184134634);
+         fill: #F7768E;
+         opacity: 0.7198671286431946;
+      }
+
+      .graph:hover .sq.g50 {
+         transform: translate(-35px, -31px) rotate(69deg) scale(2.0363062855305922);
+         fill: #ff003c;
+         opacity: 0.8135208158762374;
+      }
+
+      .hidden-text {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 32px;
+        fill: #ff003c;
+        text-anchor: middle;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.5s ease-in 0.3s;
+        filter: drop-shadow(0 0 10px #ff003c);
+      }
+      .graph:hover ~ .hidden-text {
+        opacity: 1;
+      }
+    </style>
+  </defs>
+
+  <!-- Invisible background to catch hover over the whole area -->
+  <rect class="graph bg" width="850" height="180" />
+  
+  <g class="graph" transform="translate(40, 30)">
+    <rect class="sq g11" x="0" y="0" width="10" height="10" fill="#006D32" style="transform-origin: 5px 5px;" />
+    <rect class="sq g27" x="0" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 5px 19px;" />
+    <rect class="sq g6" x="0" y="28" width="10" height="10" fill="#006D32" style="transform-origin: 5px 33px;" />
+    <rect class="sq g18" x="0" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 5px 47px;" />
+    <rect class="sq g50" x="0" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 5px 61px;" />
+    <rect class="sq g11" x="0" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 5px 75px;" />
+    <rect class="sq g1" x="0" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 5px 89px;" />
+    <rect class="sq g45" x="14" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 19px 5px;" />
+    <rect class="sq g40" x="14" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 19px 19px;" />
+    <rect class="sq g34" x="14" y="28" width="10" height="10" fill="#006D32" style="transform-origin: 19px 33px;" />
+    <rect class="sq g50" x="14" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 19px 47px;" />
+    <rect class="sq g21" x="14" y="56" width="10" height="10" fill="#26A641" style="transform-origin: 19px 61px;" />
+    <rect class="sq g47" x="14" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 19px 75px;" />
+    <rect class="sq g49" x="14" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 19px 89px;" />
+    <rect class="sq g45" x="28" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 33px 5px;" />
+    <rect class="sq g8" x="28" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 33px 19px;" />
+    <rect class="sq g34" x="28" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 33px 33px;" />
+    <rect class="sq g16" x="28" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 33px 47px;" />
+    <rect class="sq g25" x="28" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 33px 61px;" />
+    <rect class="sq g42" x="28" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 33px 75px;" />
+    <rect class="sq g24" x="28" y="84" width="10" height="10" fill="#39D353" style="transform-origin: 33px 89px;" />
+    <rect class="sq g34" x="42" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 47px 5px;" />
+    <rect class="sq g10" x="42" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 47px 19px;" />
+    <rect class="sq g13" x="42" y="28" width="10" height="10" fill="#39D353" style="transform-origin: 47px 33px;" />
+    <rect class="sq g25" x="42" y="42" width="10" height="10" fill="#39D353" style="transform-origin: 47px 47px;" />
+    <rect class="sq g26" x="42" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 47px 61px;" />
+    <rect class="sq g34" x="42" y="70" width="10" height="10" fill="#39D353" style="transform-origin: 47px 75px;" />
+    <rect class="sq g12" x="42" y="84" width="10" height="10" fill="#26A641" style="transform-origin: 47px 89px;" />
+    <rect class="sq g21" x="56" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 61px 5px;" />
+    <rect class="sq g26" x="56" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 61px 19px;" />
+    <rect class="sq g14" x="56" y="28" width="10" height="10" fill="#006D32" style="transform-origin: 61px 33px;" />
+    <rect class="sq g35" x="56" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 61px 47px;" />
+    <rect class="sq g13" x="56" y="56" width="10" height="10" fill="#39D353" style="transform-origin: 61px 61px;" />
+    <rect class="sq g44" x="56" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 61px 75px;" />
+    <rect class="sq g20" x="56" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 61px 89px;" />
+    <rect class="sq g42" x="70" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 75px 5px;" />
+    <rect class="sq g50" x="70" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 75px 19px;" />
+    <rect class="sq g25" x="70" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 75px 33px;" />
+    <rect class="sq g28" x="70" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 75px 47px;" />
+    <rect class="sq g28" x="70" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 75px 61px;" />
+    <rect class="sq g20" x="70" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 75px 75px;" />
+    <rect class="sq g31" x="70" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 75px 89px;" />
+    <rect class="sq g4" x="84" y="0" width="10" height="10" fill="#006D32" style="transform-origin: 89px 5px;" />
+    <rect class="sq g44" x="84" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 89px 19px;" />
+    <rect class="sq g39" x="84" y="28" width="10" height="10" fill="#39D353" style="transform-origin: 89px 33px;" />
+    <rect class="sq g42" x="84" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 89px 47px;" />
+    <rect class="sq g38" x="84" y="56" width="10" height="10" fill="#006D32" style="transform-origin: 89px 61px;" />
+    <rect class="sq g30" x="84" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 89px 75px;" />
+    <rect class="sq g23" x="84" y="84" width="10" height="10" fill="#006D32" style="transform-origin: 89px 89px;" />
+    <rect class="sq g29" x="98" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 103px 5px;" />
+    <rect class="sq g32" x="98" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 103px 19px;" />
+    <rect class="sq g21" x="98" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 103px 33px;" />
+    <rect class="sq g3" x="98" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 103px 47px;" />
+    <rect class="sq g45" x="98" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 103px 61px;" />
+    <rect class="sq g36" x="98" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 103px 75px;" />
+    <rect class="sq g4" x="98" y="84" width="10" height="10" fill="#006D32" style="transform-origin: 103px 89px;" />
+    <rect class="sq g14" x="112" y="0" width="10" height="10" fill="#006D32" style="transform-origin: 117px 5px;" />
+    <rect class="sq g21" x="112" y="14" width="10" height="10" fill="#39D353" style="transform-origin: 117px 19px;" />
+    <rect class="sq g34" x="112" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 117px 33px;" />
+    <rect class="sq g31" x="112" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 117px 47px;" />
+    <rect class="sq g33" x="112" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 117px 61px;" />
+    <rect class="sq g6" x="112" y="70" width="10" height="10" fill="#39D353" style="transform-origin: 117px 75px;" />
+    <rect class="sq g21" x="112" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 117px 89px;" />
+    <rect class="sq g45" x="126" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 131px 5px;" />
+    <rect class="sq g40" x="126" y="14" width="10" height="10" fill="#39D353" style="transform-origin: 131px 19px;" />
+    <rect class="sq g26" x="126" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 131px 33px;" />
+    <rect class="sq g18" x="126" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 131px 47px;" />
+    <rect class="sq g30" x="126" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 131px 61px;" />
+    <rect class="sq g47" x="126" y="70" width="10" height="10" fill="#006D32" style="transform-origin: 131px 75px;" />
+    <rect class="sq g11" x="126" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 131px 89px;" />
+    <rect class="sq g39" x="140" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 145px 5px;" />
+    <rect class="sq g18" x="140" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 145px 19px;" />
+    <rect class="sq g44" x="140" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 145px 33px;" />
+    <rect class="sq g29" x="140" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 145px 47px;" />
+    <rect class="sq g1" x="140" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 145px 61px;" />
+    <rect class="sq g49" x="140" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 145px 75px;" />
+    <rect class="sq g1" x="140" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 145px 89px;" />
+    <rect class="sq g40" x="154" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 159px 5px;" />
+    <rect class="sq g4" x="154" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 159px 19px;" />
+    <rect class="sq g11" x="154" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 159px 33px;" />
+    <rect class="sq g13" x="154" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 159px 47px;" />
+    <rect class="sq g22" x="154" y="56" width="10" height="10" fill="#006D32" style="transform-origin: 159px 61px;" />
+    <rect class="sq g14" x="154" y="70" width="10" height="10" fill="#0E4429" style="transform-origin: 159px 75px;" />
+    <rect class="sq g34" x="154" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 159px 89px;" />
+    <rect class="sq g42" x="168" y="0" width="10" height="10" fill="#26A641" style="transform-origin: 173px 5px;" />
+    <rect class="sq g23" x="168" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 173px 19px;" />
+    <rect class="sq g12" x="168" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 173px 33px;" />
+    <rect class="sq g20" x="168" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 173px 47px;" />
+    <rect class="sq g39" x="168" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 173px 61px;" />
+    <rect class="sq g14" x="168" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 173px 75px;" />
+    <rect class="sq g46" x="168" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 173px 89px;" />
+    <rect class="sq g36" x="182" y="0" width="10" height="10" fill="#006D32" style="transform-origin: 187px 5px;" />
+    <rect class="sq g6" x="182" y="14" width="10" height="10" fill="#006D32" style="transform-origin: 187px 19px;" />
+    <rect class="sq g50" x="182" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 187px 33px;" />
+    <rect class="sq g16" x="182" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 187px 47px;" />
+    <rect class="sq g43" x="182" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 187px 61px;" />
+    <rect class="sq g34" x="182" y="70" width="10" height="10" fill="#006D32" style="transform-origin: 187px 75px;" />
+    <rect class="sq g6" x="182" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 187px 89px;" />
+    <rect class="sq g36" x="196" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 201px 5px;" />
+    <rect class="sq g34" x="196" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 201px 19px;" />
+    <rect class="sq g39" x="196" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 201px 33px;" />
+    <rect class="sq g36" x="196" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 201px 47px;" />
+    <rect class="sq g38" x="196" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 201px 61px;" />
+    <rect class="sq g46" x="196" y="70" width="10" height="10" fill="#006D32" style="transform-origin: 201px 75px;" />
+    <rect class="sq g8" x="196" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 201px 89px;" />
+    <rect class="sq g29" x="210" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 215px 5px;" />
+    <rect class="sq g5" x="210" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 215px 19px;" />
+    <rect class="sq g1" x="210" y="28" width="10" height="10" fill="#39D353" style="transform-origin: 215px 33px;" />
+    <rect class="sq g24" x="210" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 215px 47px;" />
+    <rect class="sq g48" x="210" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 215px 61px;" />
+    <rect class="sq g43" x="210" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 215px 75px;" />
+    <rect class="sq g22" x="210" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 215px 89px;" />
+    <rect class="sq g50" x="224" y="0" width="10" height="10" fill="#39D353" style="transform-origin: 229px 5px;" />
+    <rect class="sq g18" x="224" y="14" width="10" height="10" fill="#39D353" style="transform-origin: 229px 19px;" />
+    <rect class="sq g13" x="224" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 229px 33px;" />
+    <rect class="sq g27" x="224" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 229px 47px;" />
+    <rect class="sq g21" x="224" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 229px 61px;" />
+    <rect class="sq g38" x="224" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 229px 75px;" />
+    <rect class="sq g36" x="224" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 229px 89px;" />
+    <rect class="sq g8" x="238" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 243px 5px;" />
+    <rect class="sq g36" x="238" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 243px 19px;" />
+    <rect class="sq g38" x="238" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 243px 33px;" />
+    <rect class="sq g34" x="238" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 243px 47px;" />
+    <rect class="sq g40" x="238" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 243px 61px;" />
+    <rect class="sq g2" x="238" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 243px 75px;" />
+    <rect class="sq g32" x="238" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 243px 89px;" />
+    <rect class="sq g20" x="252" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 257px 5px;" />
+    <rect class="sq g44" x="252" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 257px 19px;" />
+    <rect class="sq g14" x="252" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 257px 33px;" />
+    <rect class="sq g46" x="252" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 257px 47px;" />
+    <rect class="sq g20" x="252" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 257px 61px;" />
+    <rect class="sq g22" x="252" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 257px 75px;" />
+    <rect class="sq g42" x="252" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 257px 89px;" />
+    <rect class="sq g48" x="266" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 271px 5px;" />
+    <rect class="sq g40" x="266" y="14" width="10" height="10" fill="#006D32" style="transform-origin: 271px 19px;" />
+    <rect class="sq g38" x="266" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 271px 33px;" />
+    <rect class="sq g47" x="266" y="42" width="10" height="10" fill="#39D353" style="transform-origin: 271px 47px;" />
+    <rect class="sq g7" x="266" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 271px 61px;" />
+    <rect class="sq g32" x="266" y="70" width="10" height="10" fill="#006D32" style="transform-origin: 271px 75px;" />
+    <rect class="sq g44" x="266" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 271px 89px;" />
+    <rect class="sq g46" x="280" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 285px 5px;" />
+    <rect class="sq g33" x="280" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 285px 19px;" />
+    <rect class="sq g21" x="280" y="28" width="10" height="10" fill="#26A641" style="transform-origin: 285px 33px;" />
+    <rect class="sq g48" x="280" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 285px 47px;" />
+    <rect class="sq g7" x="280" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 285px 61px;" />
+    <rect class="sq g23" x="280" y="70" width="10" height="10" fill="#26A641" style="transform-origin: 285px 75px;" />
+    <rect class="sq g12" x="280" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 285px 89px;" />
+    <rect class="sq g11" x="294" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 299px 5px;" />
+    <rect class="sq g41" x="294" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 299px 19px;" />
+    <rect class="sq g32" x="294" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 299px 33px;" />
+    <rect class="sq g35" x="294" y="42" width="10" height="10" fill="#006D32" style="transform-origin: 299px 47px;" />
+    <rect class="sq g42" x="294" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 299px 61px;" />
+    <rect class="sq g34" x="294" y="70" width="10" height="10" fill="#0E4429" style="transform-origin: 299px 75px;" />
+    <rect class="sq g29" x="294" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 299px 89px;" />
+    <rect class="sq g37" x="308" y="0" width="10" height="10" fill="#006D32" style="transform-origin: 313px 5px;" />
+    <rect class="sq g49" x="308" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 313px 19px;" />
+    <rect class="sq g7" x="308" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 313px 33px;" />
+    <rect class="sq g40" x="308" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 313px 47px;" />
+    <rect class="sq g6" x="308" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 313px 61px;" />
+    <rect class="sq g23" x="308" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 313px 75px;" />
+    <rect class="sq g20" x="308" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 313px 89px;" />
+    <rect class="sq g12" x="322" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 327px 5px;" />
+    <rect class="sq g38" x="322" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 327px 19px;" />
+    <rect class="sq g42" x="322" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 327px 33px;" />
+    <rect class="sq g15" x="322" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 327px 47px;" />
+    <rect class="sq g9" x="322" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 327px 61px;" />
+    <rect class="sq g12" x="322" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 327px 75px;" />
+    <rect class="sq g11" x="322" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 327px 89px;" />
+    <rect class="sq g45" x="336" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 341px 5px;" />
+    <rect class="sq g41" x="336" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 341px 19px;" />
+    <rect class="sq g12" x="336" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 341px 33px;" />
+    <rect class="sq g25" x="336" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 341px 47px;" />
+    <rect class="sq g14" x="336" y="56" width="10" height="10" fill="#006D32" style="transform-origin: 341px 61px;" />
+    <rect class="sq g33" x="336" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 341px 75px;" />
+    <rect class="sq g12" x="336" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 341px 89px;" />
+    <rect class="sq g44" x="350" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 355px 5px;" />
+    <rect class="sq g48" x="350" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 355px 19px;" />
+    <rect class="sq g24" x="350" y="28" width="10" height="10" fill="#006D32" style="transform-origin: 355px 33px;" />
+    <rect class="sq g46" x="350" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 355px 47px;" />
+    <rect class="sq g40" x="350" y="56" width="10" height="10" fill="#006D32" style="transform-origin: 355px 61px;" />
+    <rect class="sq g42" x="350" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 355px 75px;" />
+    <rect class="sq g7" x="350" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 355px 89px;" />
+    <rect class="sq g31" x="364" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 369px 5px;" />
+    <rect class="sq g43" x="364" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 369px 19px;" />
+    <rect class="sq g38" x="364" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 369px 33px;" />
+    <rect class="sq g13" x="364" y="42" width="10" height="10" fill="#26A641" style="transform-origin: 369px 47px;" />
+    <rect class="sq g19" x="364" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 369px 61px;" />
+    <rect class="sq g31" x="364" y="70" width="10" height="10" fill="#26A641" style="transform-origin: 369px 75px;" />
+    <rect class="sq g33" x="364" y="84" width="10" height="10" fill="#39D353" style="transform-origin: 369px 89px;" />
+    <rect class="sq g44" x="378" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 383px 5px;" />
+    <rect class="sq g41" x="378" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 383px 19px;" />
+    <rect class="sq g28" x="378" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 383px 33px;" />
+    <rect class="sq g3" x="378" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 383px 47px;" />
+    <rect class="sq g10" x="378" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 383px 61px;" />
+    <rect class="sq g9" x="378" y="70" width="10" height="10" fill="#0E4429" style="transform-origin: 383px 75px;" />
+    <rect class="sq g13" x="378" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 383px 89px;" />
+    <rect class="sq g35" x="392" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 397px 5px;" />
+    <rect class="sq g41" x="392" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 397px 19px;" />
+    <rect class="sq g48" x="392" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 397px 33px;" />
+    <rect class="sq g22" x="392" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 397px 47px;" />
+    <rect class="sq g19" x="392" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 397px 61px;" />
+    <rect class="sq g50" x="392" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 397px 75px;" />
+    <rect class="sq g16" x="392" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 397px 89px;" />
+    <rect class="sq g19" x="406" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 411px 5px;" />
+    <rect class="sq g15" x="406" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 411px 19px;" />
+    <rect class="sq g36" x="406" y="28" width="10" height="10" fill="#39D353" style="transform-origin: 411px 33px;" />
+    <rect class="sq g42" x="406" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 411px 47px;" />
+    <rect class="sq g25" x="406" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 411px 61px;" />
+    <rect class="sq g38" x="406" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 411px 75px;" />
+    <rect class="sq g7" x="406" y="84" width="10" height="10" fill="#006D32" style="transform-origin: 411px 89px;" />
+    <rect class="sq g46" x="420" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 425px 5px;" />
+    <rect class="sq g34" x="420" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 425px 19px;" />
+    <rect class="sq g11" x="420" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 425px 33px;" />
+    <rect class="sq g8" x="420" y="42" width="10" height="10" fill="#006D32" style="transform-origin: 425px 47px;" />
+    <rect class="sq g39" x="420" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 425px 61px;" />
+    <rect class="sq g33" x="420" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 425px 75px;" />
+    <rect class="sq g32" x="420" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 425px 89px;" />
+    <rect class="sq g43" x="434" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 439px 5px;" />
+    <rect class="sq g13" x="434" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 439px 19px;" />
+    <rect class="sq g35" x="434" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 439px 33px;" />
+    <rect class="sq g35" x="434" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 439px 47px;" />
+    <rect class="sq g38" x="434" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 439px 61px;" />
+    <rect class="sq g5" x="434" y="70" width="10" height="10" fill="#006D32" style="transform-origin: 439px 75px;" />
+    <rect class="sq g10" x="434" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 439px 89px;" />
+    <rect class="sq g6" x="448" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 453px 5px;" />
+    <rect class="sq g24" x="448" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 453px 19px;" />
+    <rect class="sq g20" x="448" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 453px 33px;" />
+    <rect class="sq g8" x="448" y="42" width="10" height="10" fill="#006D32" style="transform-origin: 453px 47px;" />
+    <rect class="sq g29" x="448" y="56" width="10" height="10" fill="#39D353" style="transform-origin: 453px 61px;" />
+    <rect class="sq g48" x="448" y="70" width="10" height="10" fill="#39D353" style="transform-origin: 453px 75px;" />
+    <rect class="sq g26" x="448" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 453px 89px;" />
+    <rect class="sq g10" x="462" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 467px 5px;" />
+    <rect class="sq g15" x="462" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 467px 19px;" />
+    <rect class="sq g50" x="462" y="28" width="10" height="10" fill="#39D353" style="transform-origin: 467px 33px;" />
+    <rect class="sq g50" x="462" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 467px 47px;" />
+    <rect class="sq g10" x="462" y="56" width="10" height="10" fill="#006D32" style="transform-origin: 467px 61px;" />
+    <rect class="sq g7" x="462" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 467px 75px;" />
+    <rect class="sq g27" x="462" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 467px 89px;" />
+    <rect class="sq g25" x="476" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 481px 5px;" />
+    <rect class="sq g36" x="476" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 481px 19px;" />
+    <rect class="sq g45" x="476" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 481px 33px;" />
+    <rect class="sq g12" x="476" y="42" width="10" height="10" fill="#006D32" style="transform-origin: 481px 47px;" />
+    <rect class="sq g34" x="476" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 481px 61px;" />
+    <rect class="sq g27" x="476" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 481px 75px;" />
+    <rect class="sq g12" x="476" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 481px 89px;" />
+    <rect class="sq g31" x="490" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 495px 5px;" />
+    <rect class="sq g9" x="490" y="14" width="10" height="10" fill="#39D353" style="transform-origin: 495px 19px;" />
+    <rect class="sq g5" x="490" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 495px 33px;" />
+    <rect class="sq g31" x="490" y="42" width="10" height="10" fill="#39D353" style="transform-origin: 495px 47px;" />
+    <rect class="sq g13" x="490" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 495px 61px;" />
+    <rect class="sq g29" x="490" y="70" width="10" height="10" fill="#26A641" style="transform-origin: 495px 75px;" />
+    <rect class="sq g3" x="490" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 495px 89px;" />
+    <rect class="sq g39" x="504" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 509px 5px;" />
+    <rect class="sq g8" x="504" y="14" width="10" height="10" fill="#26A641" style="transform-origin: 509px 19px;" />
+    <rect class="sq g11" x="504" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 509px 33px;" />
+    <rect class="sq g49" x="504" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 509px 47px;" />
+    <rect class="sq g24" x="504" y="56" width="10" height="10" fill="#006D32" style="transform-origin: 509px 61px;" />
+    <rect class="sq g21" x="504" y="70" width="10" height="10" fill="#0E4429" style="transform-origin: 509px 75px;" />
+    <rect class="sq g44" x="504" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 509px 89px;" />
+    <rect class="sq g28" x="518" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 523px 5px;" />
+    <rect class="sq g49" x="518" y="14" width="10" height="10" fill="#006D32" style="transform-origin: 523px 19px;" />
+    <rect class="sq g47" x="518" y="28" width="10" height="10" fill="#006D32" style="transform-origin: 523px 33px;" />
+    <rect class="sq g17" x="518" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 523px 47px;" />
+    <rect class="sq g33" x="518" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 523px 61px;" />
+    <rect class="sq g19" x="518" y="70" width="10" height="10" fill="#0E4429" style="transform-origin: 523px 75px;" />
+    <rect class="sq g23" x="518" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 523px 89px;" />
+    <rect class="sq g48" x="532" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 537px 5px;" />
+    <rect class="sq g9" x="532" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 537px 19px;" />
+    <rect class="sq g16" x="532" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 537px 33px;" />
+    <rect class="sq g34" x="532" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 537px 47px;" />
+    <rect class="sq g12" x="532" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 537px 61px;" />
+    <rect class="sq g3" x="532" y="70" width="10" height="10" fill="#0E4429" style="transform-origin: 537px 75px;" />
+    <rect class="sq g25" x="532" y="84" width="10" height="10" fill="#26A641" style="transform-origin: 537px 89px;" />
+    <rect class="sq g44" x="546" y="0" width="10" height="10" fill="#26A641" style="transform-origin: 551px 5px;" />
+    <rect class="sq g11" x="546" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 551px 19px;" />
+    <rect class="sq g27" x="546" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 551px 33px;" />
+    <rect class="sq g47" x="546" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 551px 47px;" />
+    <rect class="sq g31" x="546" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 551px 61px;" />
+    <rect class="sq g8" x="546" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 551px 75px;" />
+    <rect class="sq g31" x="546" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 551px 89px;" />
+    <rect class="sq g49" x="560" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 565px 5px;" />
+    <rect class="sq g8" x="560" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 565px 19px;" />
+    <rect class="sq g5" x="560" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 565px 33px;" />
+    <rect class="sq g27" x="560" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 565px 47px;" />
+    <rect class="sq g11" x="560" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 565px 61px;" />
+    <rect class="sq g30" x="560" y="70" width="10" height="10" fill="#006D32" style="transform-origin: 565px 75px;" />
+    <rect class="sq g1" x="560" y="84" width="10" height="10" fill="#39D353" style="transform-origin: 565px 89px;" />
+    <rect class="sq g5" x="574" y="0" width="10" height="10" fill="#26A641" style="transform-origin: 579px 5px;" />
+    <rect class="sq g4" x="574" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 579px 19px;" />
+    <rect class="sq g35" x="574" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 579px 33px;" />
+    <rect class="sq g18" x="574" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 579px 47px;" />
+    <rect class="sq g34" x="574" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 579px 61px;" />
+    <rect class="sq g39" x="574" y="70" width="10" height="10" fill="#006D32" style="transform-origin: 579px 75px;" />
+    <rect class="sq g29" x="574" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 579px 89px;" />
+    <rect class="sq g19" x="588" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 593px 5px;" />
+    <rect class="sq g50" x="588" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 593px 19px;" />
+    <rect class="sq g31" x="588" y="28" width="10" height="10" fill="#39D353" style="transform-origin: 593px 33px;" />
+    <rect class="sq g22" x="588" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 593px 47px;" />
+    <rect class="sq g32" x="588" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 593px 61px;" />
+    <rect class="sq g33" x="588" y="70" width="10" height="10" fill="#0E4429" style="transform-origin: 593px 75px;" />
+    <rect class="sq g43" x="588" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 593px 89px;" />
+    <rect class="sq g1" x="602" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 607px 5px;" />
+    <rect class="sq g11" x="602" y="14" width="10" height="10" fill="#006D32" style="transform-origin: 607px 19px;" />
+    <rect class="sq g36" x="602" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 607px 33px;" />
+    <rect class="sq g34" x="602" y="42" width="10" height="10" fill="#39D353" style="transform-origin: 607px 47px;" />
+    <rect class="sq g31" x="602" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 607px 61px;" />
+    <rect class="sq g44" x="602" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 607px 75px;" />
+    <rect class="sq g19" x="602" y="84" width="10" height="10" fill="#0E4429" style="transform-origin: 607px 89px;" />
+    <rect class="sq g45" x="616" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 621px 5px;" />
+    <rect class="sq g23" x="616" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 621px 19px;" />
+    <rect class="sq g36" x="616" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 621px 33px;" />
+    <rect class="sq g24" x="616" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 621px 47px;" />
+    <rect class="sq g44" x="616" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 621px 61px;" />
+    <rect class="sq g5" x="616" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 621px 75px;" />
+    <rect class="sq g45" x="616" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 621px 89px;" />
+    <rect class="sq g42" x="630" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 635px 5px;" />
+    <rect class="sq g6" x="630" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 635px 19px;" />
+    <rect class="sq g10" x="630" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 635px 33px;" />
+    <rect class="sq g47" x="630" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 635px 47px;" />
+    <rect class="sq g26" x="630" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 635px 61px;" />
+    <rect class="sq g27" x="630" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 635px 75px;" />
+    <rect class="sq g16" x="630" y="84" width="10" height="10" fill="#26A641" style="transform-origin: 635px 89px;" />
+    <rect class="sq g16" x="644" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 649px 5px;" />
+    <rect class="sq g1" x="644" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 649px 19px;" />
+    <rect class="sq g3" x="644" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 649px 33px;" />
+    <rect class="sq g20" x="644" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 649px 47px;" />
+    <rect class="sq g44" x="644" y="56" width="10" height="10" fill="#006D32" style="transform-origin: 649px 61px;" />
+    <rect class="sq g35" x="644" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 649px 75px;" />
+    <rect class="sq g2" x="644" y="84" width="10" height="10" fill="#39D353" style="transform-origin: 649px 89px;" />
+    <rect class="sq g29" x="658" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 663px 5px;" />
+    <rect class="sq g9" x="658" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 663px 19px;" />
+    <rect class="sq g4" x="658" y="28" width="10" height="10" fill="#39D353" style="transform-origin: 663px 33px;" />
+    <rect class="sq g20" x="658" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 663px 47px;" />
+    <rect class="sq g47" x="658" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 663px 61px;" />
+    <rect class="sq g17" x="658" y="70" width="10" height="10" fill="#39D353" style="transform-origin: 663px 75px;" />
+    <rect class="sq g36" x="658" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 663px 89px;" />
+    <rect class="sq g31" x="672" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 677px 5px;" />
+    <rect class="sq g8" x="672" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 677px 19px;" />
+    <rect class="sq g24" x="672" y="28" width="10" height="10" fill="#161B22" style="transform-origin: 677px 33px;" />
+    <rect class="sq g29" x="672" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 677px 47px;" />
+    <rect class="sq g32" x="672" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 677px 61px;" />
+    <rect class="sq g41" x="672" y="70" width="10" height="10" fill="#39D353" style="transform-origin: 677px 75px;" />
+    <rect class="sq g32" x="672" y="84" width="10" height="10" fill="#006D32" style="transform-origin: 677px 89px;" />
+    <rect class="sq g10" x="686" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 691px 5px;" />
+    <rect class="sq g34" x="686" y="14" width="10" height="10" fill="#0E4429" style="transform-origin: 691px 19px;" />
+    <rect class="sq g49" x="686" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 691px 33px;" />
+    <rect class="sq g7" x="686" y="42" width="10" height="10" fill="#0E4429" style="transform-origin: 691px 47px;" />
+    <rect class="sq g36" x="686" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 691px 61px;" />
+    <rect class="sq g3" x="686" y="70" width="10" height="10" fill="#006D32" style="transform-origin: 691px 75px;" />
+    <rect class="sq g30" x="686" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 691px 89px;" />
+    <rect class="sq g5" x="700" y="0" width="10" height="10" fill="#0E4429" style="transform-origin: 705px 5px;" />
+    <rect class="sq g15" x="700" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 705px 19px;" />
+    <rect class="sq g47" x="700" y="28" width="10" height="10" fill="#39D353" style="transform-origin: 705px 33px;" />
+    <rect class="sq g6" x="700" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 705px 47px;" />
+    <rect class="sq g39" x="700" y="56" width="10" height="10" fill="#0E4429" style="transform-origin: 705px 61px;" />
+    <rect class="sq g25" x="700" y="70" width="10" height="10" fill="#0E4429" style="transform-origin: 705px 75px;" />
+    <rect class="sq g2" x="700" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 705px 89px;" />
+    <rect class="sq g7" x="714" y="0" width="10" height="10" fill="#006D32" style="transform-origin: 719px 5px;" />
+    <rect class="sq g3" x="714" y="14" width="10" height="10" fill="#161B22" style="transform-origin: 719px 19px;" />
+    <rect class="sq g5" x="714" y="28" width="10" height="10" fill="#0E4429" style="transform-origin: 719px 33px;" />
+    <rect class="sq g13" x="714" y="42" width="10" height="10" fill="#006D32" style="transform-origin: 719px 47px;" />
+    <rect class="sq g26" x="714" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 719px 61px;" />
+    <rect class="sq g2" x="714" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 719px 75px;" />
+    <rect class="sq g27" x="714" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 719px 89px;" />
+    <rect class="sq g13" x="728" y="0" width="10" height="10" fill="#161B22" style="transform-origin: 733px 5px;" />
+    <rect class="sq g29" x="728" y="14" width="10" height="10" fill="#39D353" style="transform-origin: 733px 19px;" />
+    <rect class="sq g47" x="728" y="28" width="10" height="10" fill="#39D353" style="transform-origin: 733px 33px;" />
+    <rect class="sq g27" x="728" y="42" width="10" height="10" fill="#161B22" style="transform-origin: 733px 47px;" />
+    <rect class="sq g39" x="728" y="56" width="10" height="10" fill="#161B22" style="transform-origin: 733px 61px;" />
+    <rect class="sq g9" x="728" y="70" width="10" height="10" fill="#161B22" style="transform-origin: 733px 75px;" />
+    <rect class="sq g5" x="728" y="84" width="10" height="10" fill="#161B22" style="transform-origin: 733px 89px;" />
+
+  </g>
+  
+  <text x="425" y="100" class="hidden-text">
+    ⚠️ NEURAL CORE BREACHED // KIEN234 ⚠️
+  </text>
+</svg>

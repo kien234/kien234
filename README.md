@@ -33,6 +33,10 @@
 ### 📊 NEURAL ACTIVITY (GITHUB STATS)
 
 <div align="center">
+  <h3>CONTRIBUTION MATRIX ANOMALY DETECTED</h3>
+  <img src="assets/fake_graph.svg" width="100%" alt="Hacked Contribution Graph" />
+  
+  <br/><br/>
   <table border="0">
     <tr>
       <td><img src="https://github-readme-stats.vercel.app/api?username=kien234&show_icons=true&theme=transparent&hide_border=true&title_color=00F2FF&text_color=A9B1D6&icon_color=7000FF&bg_color=0D1117" height="180" /></td>
