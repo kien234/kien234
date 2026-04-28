@@ -45,10 +45,10 @@ I'm a **Full-stack Developer** based in Vietnam, specialized in building premium
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kiencuong267&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiencuong267&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kien234&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kien234&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170" />
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kiencuong267&theme=tokyonight&hide_border=true&background=0D1117" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kien234&theme=tokyonight&hide_border=true&background=0D1117" height="170" />
 </div>
 
 ---
