@@ -4,7 +4,6 @@ import os
 svg = """<svg width="850" height="180" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
       .graph { pointer-events: all; cursor: crosshair; }
       .sq { transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); rx: 2; }
       .bg { fill: transparent; }
@@ -27,7 +26,7 @@ for i in range(1, 51):
 
 svg += """
       .hidden-text {
-        font-family: 'Orbitron', sans-serif;
+        font-family: monospace, sans-serif;
         font-size: 32px;
         fill: #ff003c;
         text-anchor: middle;
