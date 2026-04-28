@@ -1,0 +1,79 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Cyberpunk font via import -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&amp;family=Rajdhani:wght@500;700&amp;display=swap');
+      
+      .title { font-family: 'Orbitron', sans-serif; font-size: 16px; font-weight: bold; fill: #00F2FF; text-transform: uppercase; letter-spacing: 2px; }
+      .text { font-family: 'Rajdhani', sans-serif; font-size: 18px; fill: #A9B1D6; font-weight: 500; }
+      .percent { font-family: 'Orbitron', sans-serif; font-size: 16px; font-weight: bold; fill: #F7768E; }
+      .percent-max { fill: #00F2FF; text-shadow: 0 0 10px rgba(0, 242, 255, 0.8); }
+      
+      .bg-bar { fill: #16161E; stroke: #292E42; stroke-width: 1; rx: 4; }
+      
+      .bar-0 { fill: #F7768E; opacity: 0.3; rx: 4; }
+      .bar-100 { fill: url(#neonGradient); rx: 4; filter: drop-shadow(0 0 8px rgba(0,242,255,0.6)); }
+      
+      @keyframes fillBar {
+        0% { width: 0; }
+        100% { width: 600px; }
+      }
+      
+      .animate-bar {
+        animation: fillBar 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+      }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+      }
+      
+      .animate-pulse {
+        animation: pulse 2s infinite;
+      }
+    </style>
+    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7000FF" />
+      <stop offset="50%" stop-color="#00F2FF" />
+      <stop offset="100%" stop-color="#00FF9D" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="300" fill="#0D1117" rx="10" stroke="#00F2FF" stroke-width="0.5" stroke-opacity="0.3" />
+
+  <g transform="translate(40, 40)">
+    <text x="0" y="0" class="title">/// SYSTEM CAPABILITIES [DEPRECATED VS OPTIMIZED]</text>
+    
+    <!-- Skill 1 -->
+    <g transform="translate(0, 40)">
+      <text x="0" y="0" class="text">MANUAL JAVASCRIPT</text>
+      <text x="720" y="0" class="percent" text-anchor="end">0%</text>
+      <rect x="0" y="10" width="720" height="12" class="bg-bar" />
+      <rect x="0" y="10" width="5" height="12" class="bar-0" />
+    </g>
+
+    <!-- Skill 2 -->
+    <g transform="translate(0, 100)">
+      <text x="0" y="0" class="text">MANUAL PYTHON</text>
+      <text x="720" y="0" class="percent" text-anchor="end">0%</text>
+      <rect x="0" y="10" width="720" height="12" class="bg-bar" />
+      <rect x="0" y="10" width="5" height="12" class="bar-0" />
+    </g>
+
+    <!-- Skill 3 -->
+    <g transform="translate(0, 160)">
+      <text x="0" y="0" class="text">MANUAL UI/UX</text>
+      <text x="720" y="0" class="percent" text-anchor="end">0%</text>
+      <rect x="0" y="10" width="720" height="12" class="bg-bar" />
+      <rect x="0" y="10" width="5" height="12" class="bar-0" />
+    </g>
+
+    <!-- Skill 4 -->
+    <g transform="translate(0, 220)">
+      <text x="0" y="0" class="title" style="fill:#00FF9D;">AI AUGMENTED DEVELOPMENT</text>
+      <text x="720" y="0" class="percent percent-max animate-pulse" text-anchor="end">100%</text>
+      <rect x="0" y="10" width="720" height="16" class="bg-bar" />
+      <rect x="0" y="10" width="0" height="16" class="bar-100 animate-bar" />
+    </g>
+  </g>
+</svg>

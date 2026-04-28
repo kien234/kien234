@@ -14,53 +14,10 @@
 
 ---
 
-### 🖥️ SYSTEM CAPABILITIES (DEPRECATED VS OPTIMIZED)
+### 🖥️ SYSTEM CAPABILITIES
 
-<br/>
-
-<div align="left">
-  <!-- Skill: Manual Javascript -->
-  <b>Manual JavaScript</b> <i align="right">0%</i>
-  <br/>
-  <svg width="100%" height="12">
-    <rect width="100%" height="12" fill="#1A1B27" rx="6" />
-    <rect width="2%" height="12" fill="#444" rx="6" />
-  </svg>
-  <br/><br/>
-  
-  <!-- Skill: Manual Python -->
-  <b>Manual Python</b> <i align="right">0%</i>
-  <br/>
-  <svg width="100%" height="12">
-    <rect width="100%" height="12" fill="#1A1B27" rx="6" />
-    <rect width="2%" height="12" fill="#444" rx="6" />
-  </svg>
-  <br/><br/>
-
-  <!-- Skill: UI Design -->
-  <b>Manual UI/UX</b> <i align="right">0%</i>
-  <br/>
-  <svg width="100%" height="12">
-    <rect width="100%" height="12" fill="#1A1B27" rx="6" />
-    <rect width="2%" height="12" fill="#444" rx="6" />
-  </svg>
-  <br/><br/>
-
-  <!-- Skill: AI Integration -->
-  <b>AI AUGMENTED DEVELOPMENT</b> <i align="right">100%</i>
-  <br/>
-  <svg width="100%" height="12">
-    <rect width="100%" height="12" fill="#1A1B27" rx="6" />
-    <rect width="100%" height="12" fill="url(#gradient)" rx="6">
-      <animate attributeName="width" from="0%" to="100%" dur="2s" fill="freeze" />
-    </rect>
-    <defs>
-      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#00F2FF" />
-        <stop offset="100%" stop-color="#7000FF" />
-      </linearGradient>
-    </defs>
-  </svg>
+<div align="center">
+  <img src="assets/skills.svg" width="100%" alt="System Capabilities" />
 </div>
 
 ---
