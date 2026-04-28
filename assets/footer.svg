@@ -1,0 +1,90 @@
+<svg width="850" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .f-bg { fill: #0D1117; }
+      .f-border { stroke: #30363D; stroke-width: 1; fill: none; }
+      
+      .f-label {
+        font-family: monospace;
+        font-size: 11px;
+        fill: #555;
+      }
+      .f-value {
+        font-family: monospace;
+        font-size: 13px;
+        fill: #A9B1D6;
+      }
+      .f-highlight {
+        font-family: monospace;
+        font-size: 13px;
+        fill: #00F2FF;
+      }
+      
+      .f-icon {
+        font-family: monospace;
+        font-size: 22px;
+      }
+      
+      /* Card hover glow */
+      .f-card {
+        fill: #161B22;
+        stroke: #30363D;
+        stroke-width: 1;
+        rx: 8;
+        transition: all 0.3s ease;
+      }
+      
+      /* Animated line at bottom */
+      .f-line {
+        stroke: #00F2FF;
+        stroke-width: 1;
+        stroke-dasharray: 4 4;
+        animation: fDash 10s linear infinite;
+        opacity: 0.3;
+      }
+      @keyframes fDash {
+        to { stroke-dashoffset: -100; }
+      }
+      
+      .f-copy {
+        font-family: monospace;
+        font-size: 10px;
+        fill: #333;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect class="f-bg" width="850" height="120" rx="10" />
+  
+  <!-- Stats cards -->
+  <!-- Card 1 -->
+  <rect class="f-card" x="25" y="15" width="185" height="70" />
+  <text class="f-icon" x="45" y="50">&#128640;</text>
+  <text class="f-label" x="75" y="42">PROJECTS</text>
+  <text class="f-highlight" x="75" y="62">3 Active</text>
+  
+  <!-- Card 2 -->
+  <rect class="f-card" x="230" y="15" width="185" height="70" />
+  <text class="f-icon" x="250" y="50">&#9889;</text>
+  <text class="f-label" x="280" y="42">AI USAGE</text>
+  <text class="f-highlight" x="280" y="62">100%</text>
+  
+  <!-- Card 3 -->
+  <rect class="f-card" x="435" y="15" width="185" height="70" />
+  <text class="f-icon" x="455" y="50">&#128274;</text>
+  <text class="f-label" x="485" y="42">MANUAL CODE</text>
+  <text class="f-value" x="485" y="62">Deprecated</text>
+  
+  <!-- Card 4 -->
+  <rect class="f-card" x="640" y="15" width="185" height="70" />
+  <text class="f-icon" x="660" y="50">&#9889;</text>
+  <text class="f-label" x="690" y="42">STATUS</text>
+  <text class="f-highlight" x="690" y="62">Online</text>
+  
+  <!-- Bottom line -->
+  <line class="f-line" x1="25" y1="100" x2="825" y2="100" />
+  
+  <!-- Copyright -->
+  <text class="f-copy" x="425" y="115" text-anchor="middle">2024 NGUYEN VAN KIEN // POWERED BY NEURAL AI SYSTEMS</text>
+</svg>
