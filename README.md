@@ -1,69 +1,100 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=4F74FF&center=true&vCenter=true&width=1000&lines=Nguyễn+Văn+Kiên;Full-stack+Developer;Automation+Expert" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  <img src="assets/banner.png" width="100%" style="border-radius: 15px;" />
+  <img src="assets/banner_v2.png" width="100%" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=A9B1D6&center=true&vCenter=true&width=500&lines=Chrome+Extension+Specialist;Passionate+about+Modern+UI/UX;Building+the+Future+of+Web" alt="Typing SVG Subtitle" />
+  <h1><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=2000&pause=1000&color=00F2FF&center=true&vCenter=true&width=800&lines=NGUYỄN+VĂN+KIÊN;SYSTEM+OPERATOR;AI+DRIVEN+DEVELOPER" alt="Typing SVG" /></h1>
+</div>
+
+<div align="center">
+  <p><i>"The era of manual coding is over. Everything is AI-augmented."</i></p>
 </div>
 
 ---
 
-### 💫 About Me
+### 🖥️ SYSTEM CAPABILITIES (DEPRECATED VS OPTIMIZED)
 
-I'm a **Full-stack Developer** based in Vietnam, specialized in building premium Chrome Extensions and robust automation tools. I love creating software that not only works perfectly but also looks stunning.
+<br/>
 
-- 🔭 I’m currently working on **TikTok Repost Ultimate**
-- ⚡ In my free time, I explore **3D Web Design** and **AI Integration**
-- 💬 Ask me about **JavaScript, Python, or Extension Development**
-- 📫 Reach me at: **kiencuong267@gmail.com**
-
----
-
-### 🚀 Technologies & Tools
-
-<div align="center">
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" />
+<div align="left">
+  <!-- Skill: Manual Javascript -->
+  <b>Manual JavaScript</b> <i align="right">0%</i>
   <br/>
-  <img src="https://img.shields.io/badge/selenium-%2343B02A.svg?style=for-the-badge&logo=selenium&logoColor=white" />
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/visual%20studio%20code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-</div>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kien234&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kien234&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170" />
+  <svg width="100%" height="12">
+    <rect width="100%" height="12" fill="#1A1B27" rx="6" />
+    <rect width="2%" height="12" fill="#444" rx="6" />
+  </svg>
+  <br/><br/>
+  
+  <!-- Skill: Manual Python -->
+  <b>Manual Python</b> <i align="right">0%</i>
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kien234&theme=tokyonight&hide_border=true&background=0D1117" height="170" />
+  <svg width="100%" height="12">
+    <rect width="100%" height="12" fill="#1A1B27" rx="6" />
+    <rect width="2%" height="12" fill="#444" rx="6" />
+  </svg>
+  <br/><br/>
+
+  <!-- Skill: UI Design -->
+  <b>Manual UI/UX</b> <i align="right">0%</i>
+  <br/>
+  <svg width="100%" height="12">
+    <rect width="100%" height="12" fill="#1A1B27" rx="6" />
+    <rect width="2%" height="12" fill="#444" rx="6" />
+  </svg>
+  <br/><br/>
+
+  <!-- Skill: AI Integration -->
+  <b>AI AUGMENTED DEVELOPMENT</b> <i align="right">100%</i>
+  <br/>
+  <svg width="100%" height="12">
+    <rect width="100%" height="12" fill="#1A1B27" rx="6" />
+    <rect width="100%" height="12" fill="url(#gradient)" rx="6">
+      <animate attributeName="width" from="0%" to="100%" dur="2s" fill="freeze" />
+    </rect>
+    <defs>
+      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00F2FF" />
+        <stop offset="100%" stop-color="#7000FF" />
+      </linearGradient>
+    </defs>
+  </svg>
 </div>
 
 ---
 
-### 🎨 Design Philosophy
+### 🛰️ ACTIVE PROJECTS
 
-> "Code is poetry, and the UI is the stage where it performs."
+- 💠 **TikTok Repost Ultimate** - *AI-powered content management*
+- 💠 **Auto-Login Matrix** - *Automated authentication systems*
+- 💠 **Neural Interface** - *Exploring the boundaries of AI & Web*
 
-I believe every line of code should contribute to a seamless and beautiful user experience. My focus is on **performance**, **security**, and **premium aesthetics**.
+---
+
+### 📊 NEURAL ACTIVITY (GITHUB STATS)
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td><img src="https://github-readme-stats.vercel.app/api?username=kien234&show_icons=true&theme=transparent&hide_border=true&title_color=00F2FF&text_color=A9B1D6&icon_color=7000FF&bg_color=0D1117" height="180" /></td>
+      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kien234&layout=compact&theme=transparent&hide_border=true&title_color=00F2FF&text_color=A9B1D6&bg_color=0D1117" height="180" /></td>
+    </tr>
+  </table>
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kien234&theme=transparent&hide_border=true&stroke=00F2FF&background=0D1117&ring=7000FF&fire=00F2FF&currStreakNum=A9B1D6" width="100%" />
+</div>
 
 ---
 
 <div align="center">
-  <p align="center">
-    <img src="https://img.shields.io/badge/-Nguyễn%20Văn%20Kiên-blue?style=flat-square&logo=github&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Portfolio-black?style=flat-square&logo=react&logoColor=white" />
-  </p>
+  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=probot&logoColor=white&color=00F2FF" />
+  <img src="https://img.shields.io/badge/LICENSE-AI--DRIVEN-blueviolet?style=for-the-badge" />
+</div>
+
+<br/>
+
+<div align="center">
+  <p>© 2024 NGUYỄN VĂN KIÊN | POWERED BY AI</p>
 </div>
